@@ -1,0 +1,2 @@
+MODEL_SNAPSHOT=model-ende/NMT-src-img_ADAM_acc_65.83_ppl_7.57_e16.pt                                                                                                    
+python translate_mm.py -gpu 0 -src multi30k/test2016.norm.tok.lc.bpe10000.en -model ${MODEL_SNAPSHOT} -path_to_test_img_feats semantic_regions/local_feats_test.hdf5 -output ${MODEL_SNAPSHOT}.translation.de

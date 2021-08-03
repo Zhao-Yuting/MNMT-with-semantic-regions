@@ -1,0 +1,1 @@
+python train_mm.py -data data/ende/m30k -save_model model-ende/NMT-src-img_ADAM -gpuid 0 -epochs 25 -batch_size 40 -path_to_train_img_feats semantic_regions/local_obj36_train_2016.hdf5 -path_to_valid_img_feats semantic_regions/local_obj36_val_2016.hdf5 -optim adam -learning_rate 0.002 -use_nonlinear_projection -decoder_type doubly-attentive-rnn --multimodal_model_type src+img

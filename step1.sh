@@ -1,0 +1,1 @@
+python preprocess.py -train_src multi30k/train.norm.tok.lc.bpe10000.en -train_tgt multi30k/train.norm.tok.lc.bpe10000.de -valid_src multi30k/val.norm.tok.lc.bpe10000.en -valid_tgt multi30k/val.norm.tok.lc.bpe10000.de -save_data data/m30k
