@@ -54,17 +54,6 @@ If you use any part of this repository, please consider citing the following pap
 This work is based on [Multi-modal Neural Machine Translation](https://github.com/iacercalixto/MultimodalNMT#multi-modal-neural-machine-translation)
 
 ```
-@InProceedings{CalixtoLiu2017EMNLP,
-  Title                    = {{Incorporating Global Visual Features into Attention-Based Neural Machine Translation}},
-  Author                   = {Iacer Calixto and Qun Liu},
-  Booktitle                = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
-  Year                     = {2017},
-  Address                  = {Copenhagen, Denmark},
-  Url                      = {http://aclweb.org/anthology/D17-1105}
-}
-```
-
-```
 @InProceedings{CalixtoLiuCampbell2017ACL,
   author    = {Calixto, Iacer  and  Liu, Qun  and  Campbell, Nick},
   title     = {{Doubly-Attentive Decoder for Multi-modal Neural Machine Translation}},
