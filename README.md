@@ -32,7 +32,7 @@ python translate_mm.py -gpu 0 -src multi30k/test2016.norm.tok.lc.bpe10000.en -mo
 
 ## Citation
 
-If you use any part of this repository, please consider citing the paper ["Double Attention-based Multimodal Neural Machine Translation with Semantic Image Regions"](https://aclanthology.org/2020.eamt-1.12):
+If you use any part of this repository, please consider citing the following papers:
 
 ```
 @inproceedings{zhao-etal-2020-double,
